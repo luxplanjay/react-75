@@ -25,8 +25,6 @@ const accountSlice = createSlice({
   },
 });
 
-console.log(accountSlice.actions.goo(5));
-
 export const { deposit, withdraw } = accountSlice.actions;
 
 export const accountReducer = accountSlice.reducer;
